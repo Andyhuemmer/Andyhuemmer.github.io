@@ -1,0 +1,231 @@
+* {
+  -moz-box-sizing: border-box; 
+   -webkit-box-sizing: border-box; 
+   box-sizing: border-box;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  height: inherit;
+}
+
+/* ---------- Parallax ---------- */
+header.warrior-box {
+  position: relative;
+  height: 500px;
+  background-image: url(../images/desert-header.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#logo {
+  width: 614px;
+  height: 84px;
+  background-image: url(../images/warrior-logo1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: initial;
+  position:  absolute;
+  padding-top: 500px;
+  margin-left: 25%;
+}
+
+div.warrior-foreground {
+  width: 315px;
+  height: 492px;
+  background-image: url(../images/Granok.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 0%;
+}
+
+button {
+  color: black;
+}
+
+.description {
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/description-background.jpg);
+  color: #f7f5d7;
+}
+
+.description article {
+  float: left;
+  width: 70%;
+}
+
+.description h2 {
+  padding-left: 10px;
+  padding-top;
+}
+
+.description b {
+  font-size: 2.0em;
+  font-style: italic;
+}
+
+.description p {
+  width: 75%;
+  padding-left: 10px;
+}
+
+.description #races {
+  margin-left: 24%;
+}
+
+.description button {
+  margin: 3%;
+}
+
+#descriptionPic {
+  background-image: url(../images/human.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 25%;
+  float: left;
+  padding-top: 1%;
+}
+
+.roles {
+  height: 575px;
+  width: 100%;
+  background-color: #65D9D4;
+  color: #f7f5d7;
+  text-align: center;
+}
+
+.roles h1 {
+  margin: 0%;
+  padding-top: 1%;
+  padding-left: 1%;
+  text-align: left;
+}
+
+.roles .warrior-carousel {
+  padding-top: 2%;
+  width: 100%;
+}
+
+.roles #beserker {
+  background-image: url(../images/beserker1.png);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.roles #tank {
+  background-image: url(../images/roles-tank1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#tank article {
+  margin-left: 70%;
+  margin-top: 8%;
+  padding: 1%;
+}
+
+#tank li {
+  font-size: 1.5rem;
+}
+
+.media {
+  background-image: url(../images/media-background.jpg);
+  height: 550px;
+  width: 100%;
+  text-align: center;
+  color: #f7f5d7;
+}
+
+.media h1 {
+  margin: 0;
+  padding-left: 1%;
+  padding-top: 1%;
+  text-align: left;
+}
+
+div.column img {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.3s ease-in-out; 
+  }
+
+div.column img.is-showing {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.media .screenshots {
+  width: 30%;
+  height: 400px;
+  display: inline-block;
+}
+
+.screenshots img {
+  width: 100%;
+  height: 50%;
+  padding: 1% 10% 1% 10%;
+}
+
+.media .videos {
+  width: 30%;
+  height: 400px;
+  display: inline-block;
+}
+
+.videos img {
+  width: 100%;
+  height: 50%;
+  padding: 1% 10% 1% 10%;
+}
+
+.media .wallpapers {
+  width: 30%;
+  height: 400px;
+  display: inline-block;
+}
+
+.wallpapers img {
+  width: 100%;
+  height: 50%;
+  padding: 1% 10% 1% 10%;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #1f3447;
+  text-align: center;
+}
+
+footer #fewd69 {
+  float: left;
+  padding: 1%;
+  border-right: white solid 1px;
+  margin-top: 1%;
+}
+
+footer p {
+  margin: auto 0;
+  display: inline-block;
+  padding-top: 3%;
+  padding-left: 5%;
+  color: #f7f5d7;
+}
+
+/* ======== Picture Swap ======== */
+
+
+
+/* ========== MEDIA QUERY ========== */
+width 730px
