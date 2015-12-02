@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  $('.warrior-carousel').slick({
+ $('.warrior-carousel').slick({
+  arrows: false,
+  dots: true,
+  autoplay: true,
   });
 
 /* --------- PARALLAX -------- */
@@ -17,17 +20,17 @@ $(document).ready(function(){
     });
   });
 
-  var wScroll = $(this).scrollTop();
+/*  var wScroll = $(this).scrollTop();
 
   if(wScroll > $('.column').offset().top - ($(window).height() / 1.1)) {
-
+    alert("test")
     $('.column img').each(function(i){
 
       setTimeout(function(){
         $('.column img').eq(i).addClass('is-showing');
       }, 150 * (i+1));
     });
-  }
+  } */
  });
 
   $('#humanButton').on('click', function(){
@@ -59,7 +62,7 @@ $(document).ready(function(){
     $('#descriptionPic').css({
     'background-image':'url(images/drakenDescription.png)',
     'background-repeat': 'no-repeat',
-    'background-size': 'contain',
+    'background-size': 'cover',
     });
   });
 
@@ -72,4 +75,26 @@ $(document).ready(function(){
     });
   });
 
-
+ $(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
