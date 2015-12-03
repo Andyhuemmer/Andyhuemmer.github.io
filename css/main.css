@@ -1,7 +1,7 @@
 * {
-  -moz-box-sizing: border-box; 
-   -webkit-box-sizing: border-box; 
-   box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
    font-family: 'Ubuntu', sans-serif;
 }
 
@@ -15,7 +15,7 @@ header.warrior-box {
   position: relative;
   height: 600px;
   background-image: url(../images/desert-header.jpg);
-  background-size: auto 600px;
+  background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
   overflow: hidden;
@@ -24,27 +24,24 @@ header.warrior-box {
 }
 
 #logo {
-  width: 100%;
-  height: 100px;
-  background-image: url(../images/warrior-logo1.png);
-  background-position: center;
+  width: 75%;
+  height: 100%;
+  background-image: url(../images/logo1.png);
   background-repeat: no-repeat;
-  background-size: initial;
-  position:  absolute;
+  background-position: center;
   top: 50%;
-  margin-top: 5%;
+  float: left;
 }
 
 div.warrior-foreground {
-  width: 100%;
+  width: 25%;
   height: 100%;
   background-image: url(../images/Granok.png);
   background-repeat: no-repeat;
   background-position: center left;
-  position: absolute;
-  background-size: initial;
   margin-top: 10%;
-  margin-left: 2%;
+  margin-left: 0%;
+  float: left;
 }
 
 button {
@@ -53,7 +50,7 @@ button {
 
 .nav {
   color: red;
-  height: 20px;
+  height: 40px;
   background-color: #1f3447;
   text-align: center;
   font-weight: bold;
@@ -165,7 +162,7 @@ button {
   background-image: url(../images/media-background.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 650px;
+  height: 700px;
   width: 100%;
   color: #f7f5d7;
 }
@@ -188,7 +185,7 @@ button {
 
 .media .screenshots {
   width: 30%;
-  height: 500px;
+  height: 550px;
   display: inline-block;
 }
 
@@ -206,7 +203,7 @@ button {
 
 .media .videos {
   width: 30%;
-  height: 500px;
+  height: 550px;
   display: inline-block;
 }
 
@@ -218,7 +215,7 @@ button {
 
 .media .wallpapers {
   width: 30%;
-  height: 500px;
+  height: 550px;
   display: inline-block;
 }
 
