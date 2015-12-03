@@ -15,34 +15,36 @@ header.warrior-box {
   position: relative;
   height: 600px;
   background-image: url(../images/desert-header.jpg);
-  background-size: cover;
+  background-size: auto 600px;
   background-position: bottom;
   background-attachment: fixed;
   overflow: hidden;
   width: 100%;
+  background-repeat: no-repeat;
 }
 
 #logo {
-  width: 614px;
-  height: 84px;
+  width: 100%;
+  height: 100px;
   background-image: url(../images/warrior-logo1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: initial;
   position:  absolute;
-  padding-top: 500px;
-  margin-left: 25%;
+  top: 50%;
+  margin-top: 5%;
 }
 
 div.warrior-foreground {
-  width: 315px;
-  height: 492px;
+  width: 100%;
+  height: 100%;
   background-image: url(../images/Granok.png);
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-position: center left;
   position: absolute;
-  margin-top: 6%;
-  margin-left: 0%;
+  background-size: initial;
+  margin-top: 10%;
+  margin-left: 2%;
 }
 
 button {
@@ -192,8 +194,8 @@ button {
 
 .media h3 {
   display: inline-block;
-  width: 33%;
-  text-align: center;
+  width: 30%;
+  padding-left: 5%;
 }
 
 .screenshots img {

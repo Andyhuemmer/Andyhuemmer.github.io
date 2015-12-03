@@ -13,11 +13,11 @@ $(document).ready(function(){
     var wScroll = $(this).scrollTop();
 
     $('.logo').css({
-      'transform' : 'translate(0px, '+ wScroll /10 +'%)'
+      'transform' : 'translate(0px, '+ wScroll /2 +'%)'
     });
 
     $('.warrior-foreground').css({
-      'transform' : 'translate(0px, -'+ wScroll /60 +'%)'
+      'transform' : 'translate(0px, -'+ wScroll /100 +'%)'
     });
   });
 
