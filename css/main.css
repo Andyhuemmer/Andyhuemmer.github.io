@@ -36,11 +36,11 @@ header.warrior-box {
 div.warrior-foreground {
   width: 25%;
   height: 100%;
-  background-image: url(../images/granok-description12.png);
+  background-image: url(../images/granoktop.png);
   background-repeat: no-repeat;
   background-position: center left;
   background-size: contain;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-left: 0%;
   float: left;
 }
