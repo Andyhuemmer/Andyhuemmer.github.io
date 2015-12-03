@@ -49,12 +49,35 @@ button {
 }
 
 .nav {
-  color: red;
+  color: #f7f5d7;
   height: 40px;
   background-color: #1f3447;
   text-align: center;
   font-weight: bold;
 }
+
+.nav ul {
+  display: inline-block;
+  margin: 0%;
+  width: 100%;
+  padding-top: 1%;
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+  width: 20%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #f7f5d7;
+}
+
+a.nav-active {
+  border-top: 1px solid #f7f5d7;
+} 
 
 .sticky {
   position: fixed;
@@ -92,8 +115,12 @@ button {
   padding-left: 10px;
 }
 
+#descriptionRaces {
+  padding-top: 1%;
+  text-align: center;
+}
+
 .description #races {
-  margin-left: 24%;
 }
 
 .description button {
@@ -111,11 +138,11 @@ button {
 }
 
 .roles {
-  height: 550px;
+  height: 570px;
   width: 100%;
-  background-color: #65D9D4;
+  background-color: #1f3447;;
   color: #f7f5d7;
-  text-align: center;
+
 }
 
 .roles h1 {
@@ -128,7 +155,6 @@ button {
 .roles .warrior-carousel {
  width: 100%;
  height: 550px;
- float: right;
 }
 
 .roles #beserker {
@@ -175,7 +201,7 @@ button {
 .media h1 {
   margin: 0;
   padding-left: 1%;
-  padding-top: 1%;
+  padding-top: 3%;
   text-align: left;
 }
 
@@ -198,7 +224,7 @@ button {
 .screenshots img {
   width: 100%;
   height: 50%;
-  padding: 1% 1% 1% 1%;
+  padding: 2%;
 }
 
 .media .videos {
@@ -210,7 +236,7 @@ button {
 .videos img {
   width: 100%;
   height: 50%;
-  padding: 1% 1% 1% 1%;
+  padding: 2%;
 }
 
 .media .wallpapers {
@@ -222,7 +248,7 @@ button {
 .wallpapers img {
   width: 100%;
   height: 50%;
-  padding: 1% 1% 1% 1%;
+  padding: 2%;
 }
 
 footer {
