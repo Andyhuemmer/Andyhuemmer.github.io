@@ -28,6 +28,8 @@ $(document).ready(function(){
     $('#descriptionPic').css({
     'background-image':'url(images/human.png)',
     'background-repeat': 'no-repeat',
+    'background-position': 'center',
+    'background-size': 'contain',
     });
   });
 
@@ -35,7 +37,8 @@ $(document).ready(function(){
   event.preventDefault();
     $('#descriptionPic').css({
     'background-image':'url(images/granok-warrior.png)',
-    'background-size': 'cover',
+    'background-size': 'contain',
+    'background-position': 'center'
     });
   });
 
