@@ -293,12 +293,13 @@ footer #fewd69 {
   margin-top: 1%;
 }
 
-footer p {
+footer a {
   margin: auto 0;
   display: inline-block;
   padding-top: 3%;
   padding-left: 5%;
   color: #f7f5d7;
+  text-decoration: none;
 }
 
 /* ======== Picture Swap ======== */
