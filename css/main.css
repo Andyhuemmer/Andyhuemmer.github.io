@@ -39,7 +39,7 @@ div.warrior-foreground {
   background-image: url(../images/granoktop.png);
   background-repeat: no-repeat;
   background-position: center left;
-  background-size: contain;
+  background-size: cover;
   margin-top: 8%;
   margin-left: 0%;
   float: left;
