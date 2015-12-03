@@ -1,9 +1,10 @@
 $(document).ready(function(){
  $('.warrior-carousel').slick({
   arrows: false,
-  dots: true,
   autoplay: true,
   });
+
+
 
 /* --------- PARALLAX -------- */
 
@@ -20,17 +21,6 @@ $(document).ready(function(){
     });
   });
 
-/*  var wScroll = $(this).scrollTop();
-
-  if(wScroll > $('.column').offset().top - ($(window).height() / 1.1)) {
-    alert("test")
-    $('.column img').each(function(i){
-
-      setTimeout(function(){
-        $('.column img').eq(i).addClass('is-showing');
-      }, 150 * (i+1));
-    });
-  } */
  });
 
   $('#humanButton').on('click', function(){
@@ -97,4 +87,25 @@ $(document).ready(function(){
     
     });
     
+  });
+
+$(document).ready(function() {
+
+var stickyNavTop = $('.nav').offset().top;
+ 
+var stickyNav = function(){
+var scrollTop = $(window).scrollTop();
+      
+if (scrollTop > stickyNavTop) { 
+    $('.nav').addClass('sticky');
+} else {
+    $('.nav').removeClass('sticky'); 
+}
+};
+ 
+stickyNav();
+ 
+$(window).scroll(function() {
+    stickyNav();
+});
 });

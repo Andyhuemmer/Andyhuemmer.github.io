@@ -49,16 +49,21 @@ button {
   color: black;
 }
 
-nav {
+.nav {
+  color: red;
+  height: 20px;
+  background-color: #1f3447;
   text-align: center;
-  background-position: fixed;
+  font-weight: bold;
 }
 
-nav li {
-  display: inline-block;
-  list-style-type: none;
-  text-align: center;
-  padding: 0% 5%;
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  border-top: 0;
 }
 
 .description {
@@ -122,15 +127,16 @@ nav li {
 }
 
 .roles .warrior-carousel {
-  padding-top: 2%;
-  width: 100%;
+ width: 75%;
+ height: 550px;
+ float: right;
 }
 
 .roles #beserker {
   background-image: url(../images/beserker1.png);
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 550px;
   background-repeat: no-repeat;
 }
 
@@ -139,7 +145,7 @@ nav li {
   background-size: cover;
   background-position: bottom;
   width: 100%;
-  height: 500px;
+  height: 550px;
   background-repeat: no-repeat;
 }
 
@@ -159,8 +165,12 @@ nav li {
   background-attachment: fixed;
   height: 600px;
   width: 100%;
-  text-align: center;
   color: #f7f5d7;
+}
+
+.media .column {
+  text-align: center;
+  width: 100%;
 }
 
 .media h1 {
@@ -180,10 +190,16 @@ nav li {
   display: inline-block;
 }
 
+.media h3 {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
 .screenshots img {
   width: 100%;
   height: 50%;
-  padding: 1% 10% 1% 10%;
+  padding: 1% 1% 1% 1%;
 }
 
 .media .videos {
@@ -195,7 +211,7 @@ nav li {
 .videos img {
   width: 100%;
   height: 50%;
-  padding: 1% 10% 1% 10%;
+  padding: 1% 1% 1% 1%;
 }
 
 .media .wallpapers {
@@ -207,7 +223,7 @@ nav li {
 .wallpapers img {
   width: 100%;
   height: 50%;
-  padding: 1% 10% 1% 10%;
+  padding: 1% 1% 1% 1%;
 }
 
 footer {
