@@ -2,6 +2,7 @@ $(document).ready(function(){
  $('.warrior-carousel').slick({
   arrows: false,
   autoplay: true,
+  autoplaySpeed: 4000,
   });
 
 

@@ -56,7 +56,8 @@ button {
   background-color: #1f3447;
   text-align: center;
   font-weight: bold;
-  border: solid 2px #f7f5d7;
+  border-top: solid 2px #f7f5d7;
+  border-bottom: solid 2px #f7f5d7;
 }
 
 .nav ul {
@@ -128,13 +129,14 @@ a.nav-active {
 
 .description button {
   margin: 1%;
+  border-radius: 5px;
 }
 
 #descriptionPic {
   background-image: url(../images/human.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;  
   height: 90%;
   width: 40%;
   float: left;
