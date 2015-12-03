@@ -165,7 +165,7 @@ button {
   background-image: url(../images/media-background.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 650px;
   width: 100%;
   color: #f7f5d7;
 }
@@ -188,7 +188,7 @@ button {
 
 .media .screenshots {
   width: 30%;
-  height: 400px;
+  height: 500px;
   display: inline-block;
 }
 
@@ -206,7 +206,7 @@ button {
 
 .media .videos {
   width: 30%;
-  height: 400px;
+  height: 500px;
   display: inline-block;
 }
 
@@ -218,7 +218,7 @@ button {
 
 .media .wallpapers {
   width: 30%;
-  height: 400px;
+  height: 500px;
   display: inline-block;
 }
 
