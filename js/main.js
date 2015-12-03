@@ -44,7 +44,8 @@ $(document).ready(function(){
     $('#descriptionPic').css({
     'background-image':'url(images/mains.png)',
     'background-repeat': 'no-repeat',
-    'background-size': 'contain'
+    'background-size': 'contain',
+    'background-position': 'center',
     });
   });
 
@@ -62,7 +63,8 @@ $(document).ready(function(){
     $('#descriptionPic').css({
     'background-image':'url(images/mechari-description.png)',
     'background-repeat': 'no-repeat',
-    'background-size': 'cover',
+    'background-size': 'contain',
+    'background-position': 'center',
     });
   });
 
