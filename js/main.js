@@ -34,7 +34,7 @@ $(document).ready(function(){
   $('#granokButton').on('click', function(){
   event.preventDefault();
     $('#descriptionPic').css({
-    'background-image':'url(images/granok.png)',
+    'background-image':'url(images/granok-warrior.png)',
     'background-size': 'cover',
     });
   });
@@ -44,6 +44,7 @@ $(document).ready(function(){
     $('#descriptionPic').css({
     'background-image':'url(images/mains.png)',
     'background-repeat': 'no-repeat',
+    'background-size': 'contain'
     });
   });
 
@@ -52,7 +53,7 @@ $(document).ready(function(){
     $('#descriptionPic').css({
     'background-image':'url(images/drakenDescription.png)',
     'background-repeat': 'no-repeat',
-    'background-size': 'cover',
+    'background-size': 'contain',
     });
   });
 
