@@ -134,6 +134,7 @@ a.nav-active {
   background-image: url(../images/human.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   height: 90%;
   width: 40%;
   float: left;
